@@ -50,6 +50,7 @@
             presentValueButton.TabIndex = 1;
             presentValueButton.Text = "Present Value";
             presentValueButton.UseVisualStyleBackColor = true;
+            presentValueButton.Click += presentValueButton_Click;
             // 
             // Main
             // 

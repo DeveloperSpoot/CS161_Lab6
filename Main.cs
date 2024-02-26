@@ -14,5 +14,11 @@ namespace CS161_Lab6
             Form form = new Hospital_Charges();
             form.Show();
         }
+
+        private void presentValueButton_Click(object sender, EventArgs e)
+        {
+            Form form = new Present_Value();
+            form.Show();
+        }
     }
 }
